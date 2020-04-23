@@ -1,0 +1,7 @@
+version: "3.4"
+
+services:
+  dcv-faq-bot-prod:
+    image: dhcenter/dcv-faq-bot:v1
+    env_file:
+      - .env
