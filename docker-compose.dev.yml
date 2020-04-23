@@ -1,0 +1,7 @@
+version: "3.4"
+
+services:
+  dcv-faq-bot-dev:
+    build: .
+    env_file:
+      - .env

@@ -7,6 +7,9 @@ DATABASE_NAME - name for creating database
 """
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 TOKEN = os.getenv('TOKEN')
 PORT = os.getenv('PORT')
 HEROKU_APP_NAME = os.getenv('HEROKU_APP_NAME')

@@ -3,3 +3,6 @@
 __pycache__/
 dcv_bot_env/
 envvars.sh
+dcv_bot_env
+.env
+venv
