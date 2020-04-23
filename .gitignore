@@ -1,5 +1,6 @@
 config.py
 .idea/
+.DS_store
 __pycache__/
 dcv_bot_env/
 envvars.sh
